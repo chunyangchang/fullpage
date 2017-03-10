@@ -34,7 +34,7 @@ for(var i= 0;i<options.length;i++){
         $('#box').css('z-index',zindex)
         //点击运动函数
 		    $('#box').animate({top:-this.index*h},500,function(){
-            page1()     });
+             });
        for(var i=0;i<5;i++){
           $('ul>li')[i].style.zIndex=zindex-1;
        }
